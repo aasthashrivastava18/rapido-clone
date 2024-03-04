@@ -103,7 +103,7 @@
     overflow: hidden;
   }
   
-  .page-One-bgimg {
+  .page-One-faimg {
     height: 100vh;
     position: absolute;
     top: -160px;
@@ -171,54 +171,13 @@
   
   /* safety page */
   
-  /* .safety-page {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 700px;
-    margin-left: 80px;
-    margin-top: -150px;
-  }
-  
-  .safety-page h1 {
-    font-size: 60px;
-    font-weight: 540;
-    color: black;
-  }
-  
-  .safety-page p {
-    font-size: 21px;
-    letter-spacing: 1px;
-    font-weight: 100;
-    color: black;
-    line-height: 31px;
-    margin-top: 30px;
-  }
-  
-  .safety-page button {
-    margin-top: 30px;
-  }
-  
-  .safety-btn button {
-    padding: 15px 25px;
-    border-radius: 25px 25px 25px 25px;
-    font-size: 20px;
-    background-color: #f9c935;
-    color: black;
-    border: none;
-    margin-right: 20px;
-    font-weight: bold;
-    cursor: pointer;
-  } */
   .safety-img{
-right: 10%;
-width: 70px;
+   right: 10%;
+   width: 70px;
   }
-
-  .safety-img img{
+   .safety-img img{
     width: 100vw;
-
-  }
+}
 
   
   /* safet page end */
@@ -313,6 +272,7 @@ width: 70px;
     position: relative;
     margin-bottom: 20px;
     padding-bottom: 15px;
+    margin-left: 60px;
   }
   
   .page-2-text p {
@@ -322,6 +282,7 @@ width: 70px;
     color: #525050;
     line-height: 31px;
     margin-top: 30px;
+    margin-left: 60px;
   }
   
   .page-2-text h1::before {
@@ -345,6 +306,7 @@ width: 70px;
     cursor: pointer;
     width: 250px;
     margin-top: 25px;
+    margin-left: 60px;
   }
   
   /* page two end */
@@ -778,7 +740,7 @@ width: 70px;
       border: none;
     }
   
-    .page-One-bgimg {
+    .page-One-faimg {
       display: none;
     }
   
